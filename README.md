@@ -1,7 +1,13 @@
 # Portafolio — Tomás Jiménez Albornoz
 
+[![Sitio en vivo](https://img.shields.io/badge/sitio-en%20vivo-38bdf8?style=flat-square)](https://tomasjdev.github.io/Portafolio/)
+[![Licencia MIT](https://img.shields.io/badge/licencia-MIT-64748b?style=flat-square)](LICENSE)
+[![Sin dependencias](https://img.shields.io/badge/dependencias-0-64748b?style=flat-square)](#)
+
 Sitio web personal de portafolio: **HTML, CSS y JavaScript puro**, sin frameworks, sin
-paso de build y sin dependencias que instalar. Se publica gratis en GitHub Pages.
+paso de build y sin dependencias que instalar. Publicado gratis en GitHub Pages.
+
+**🔗 [tomasjdev.github.io/Portafolio](https://tomasjdev.github.io/Portafolio/)**
 
 **Analista de Datos · Automatización de Procesos** — Ingeniería en Computación e
 Informática (Universidad Andrés Bello).
@@ -68,11 +74,14 @@ Casi todo se edita en un solo archivo: **`assets/js/content.js`**.
 ```js
 const CONFIG = {
   email: 'jimeneztomas912@gmail.com',
-  linkedin: 'https://www.linkedin.com/in/...',   // ← revisar
+  linkedin: 'https://www.linkedin.com/in/tomas-jimenez-albornoz',
   github: 'https://github.com/tomasjdev',
   cv: 'assets/cv/Tomas-Jimenez-Albornoz-CV.pdf',
 };
 ```
+
+> El teléfono se retiró intencionalmente del sitio público (queda solo en el PDF
+> del CV) para reducir la exposición a rastreo automatizado.
 
 ### 2. Agregar un proyecto
 
@@ -115,14 +124,14 @@ Para añadir uno nuevo, agregar su `path` SVG (viewBox `0 0 24 24`) al objeto
 
 ---
 
-## Publicar en GitHub Pages (gratis)
+## Publicación (GitHub Pages)
 
-1. En el repositorio: **Settings → Pages**.
-2. En *Source*, elegir **Deploy from a branch**.
-3. Seleccionar la rama (`main`) y la carpeta `/ (root)`. Guardar.
-4. El sitio queda disponible en `https://tomasjdev.github.io/Portafolio/` en un par de minutos.
+El sitio se sirve desde la rama `main`, carpeta raíz. Configuración en
+**Settings → Pages → Source: Deploy from a branch → `main` / `(root)`**.
 
-El archivo `.nojekyll` evita que Jekyll ignore carpetas o archivos del proyecto.
+Cada `git push` a `main` republica el sitio automáticamente en un par de minutos
+— no hay build ni servidor que mantener. El archivo `.nojekyll` evita que Jekyll
+ignore carpetas o archivos del proyecto.
 
 > Para usar un dominio propio: agregar un archivo `CNAME` en la raíz con el dominio
 > y configurar el registro DNS según la documentación de GitHub Pages.
@@ -131,7 +140,6 @@ El archivo `.nojekyll` evita que Jekyll ignore carpetas o archivos del proyecto.
 
 ## Pendientes / mejoras futuras
 
-- [ ] Confirmar la URL real de LinkedIn en `CONFIG.linkedin` (el CV apunta a un placeholder).
 - [ ] Agregar capturas de pantalla de los proyectos en `assets/img/` y mostrarlas en el modal.
 - [ ] Publicar el repositorio del sistema de inventario y enlazarlo en `repo`.
 - [ ] Generar una imagen Open Graph (1200×630) para las vistas previas al compartir.
