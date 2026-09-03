@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Tomás Jiménez Albornoz — Analista de Datos & Automatización</title>
+  <meta name="description" content="Portafolio de Tomás Jiménez Albornoz. Analista de datos e ingeniero en computación especializado en gobierno de datos, automatización de procesos y desarrollo web. Python, SQL, JavaScript, AWS y Power BI.">
+  <meta name="author" content="Tomás Jiménez Albornoz">
+  <meta name="theme-color" content="#0b1120">
+
+  <!-- Open Graph / redes sociales -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tomás Jiménez Albornoz — Analista de Datos & Automatización">
+  <meta property="og:description" content="Convierto procesos manuales en herramientas automatizadas, prácticas y fáciles de mantener.">
+  <meta property="og:locale" content="es_CL">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="canonical" href="https://tomasjdev.github.io/Portafolio/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230ea5e9'/><text y='.9em' x='50%25' text-anchor='middle' font-size='58' font-family='monospace' font-weight='700' fill='%23fff'>TJ</text></svg>">
+
+  <!-- Tipografías con fallback del sistema si no cargan -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Datos estructurados para buscadores -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Tomás Jiménez Albornoz",
+    "jobTitle": "Analista de Datos",
+    "email": "mailto:jimeneztomas912@gmail.com",
+    "telephone": "+56934245693",
+    "address": { "@type": "PostalAddress", "addressLocality": "Isla de Maipo, Santiago", "addressCountry": "CL" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Universidad Andrés Bello" },
+    "knowsAbout": ["Gobierno de Datos", "Automatización de procesos", "Python", "SQL", "JavaScript", "AWS", "Power BI"]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Saltar al contenido principal</a>
+
+  <!-- ══════════════ HEADER ══════════════ -->
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Principal">
+      <a class="nav__brand" href="#inicio">
+        <span class="nav__logo" aria-hidden="true">TJ</span>
+        <span class="nav__brand-text">Tomás Jiménez</span>
+      </a>
+
+      <ul class="nav__menu" id="nav-menu">
+        <li><a class="nav__link" href="#sobre-mi"        data-i18n="nav.about">Sobre mí</a></li>
+        <li><a class="nav__link" href="#skills"          data-i18n="nav.skills">Skills</a></li>
+        <li><a class="nav__link" href="#proyectos"       data-i18n="nav.projects">Proyectos</a></li>
+        <li><a class="nav__link" href="#experiencia"     data-i18n="nav.experience">Experiencia</a></li>
+        <li><a class="nav__link" href="#certificaciones" data-i18n="nav.certs">Certificaciones</a></li>
+        <li><a class="nav__link" href="#contacto"        data-i18n="nav.contact">Contacto</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button class="btn-icon" id="lang-toggle" type="button" aria-label="Cambiar idioma">
+          <span class="lang-badge" id="lang-badge">EN</span>
+        </button>
+
+        <button class="btn-icon" id="theme-toggle" type="button" aria-label="Cambiar tema">
+          <svg class="icon icon--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="icon icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+
+        <button class="btn-icon nav__burger" id="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+          <span class="burger"><span></span><span></span><span></span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ══════════════ HERO ══════════════ -->
+    <section class="hero" id="inicio">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <p class="hero__eyebrow">
+          <span class="pulse" aria-hidden="true"></span>
+          <span data-i18n="hero.eyebrow">Disponible para nuevos proyectos</span>
+        </p>
+
+        <h1 class="hero__title">
+          <span data-i18n="hero.greeting">Hola, soy</span>
+          <span class="gradient-text">Tomás Jiménez Albornoz</span>
+        </h1>
+
+        <p class="hero__role">
+          <span data-i18n="hero.role">Analista de Datos</span>
+          <span class="hero__sep" aria-hidden="true">/</span>
+          <span data-i18n="hero.role2">Automatización de Procesos</span>
+        </p>
+
+        <p class="hero__desc" data-i18n="hero.desc">
+          Identifico procesos manuales que consumen tiempo y los transformo en herramientas
+          automatizadas, prácticas y fáciles de mantener — usando la herramienta más simple
+          que resuelve el problema, no la más compleja.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#proyectos" data-i18n="hero.ctaProjects">Ver proyectos</a>
+          <a class="btn btn--ghost" href="assets/cv/Tomas-Jimenez-Albornoz-CV.pdf" download>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+            <span data-i18n="hero.ctaCv">Descargar CV</span>
+          </a>
+        </div>
+
+        <ul class="hero__stats" id="hero-stats"></ul>
+      </div>
+    </section>
+
+    <!-- ══════════════ SOBRE MÍ ══════════════ -->
+    <section class="section" id="sobre-mi">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__num" aria-hidden="true">01</span>
+          <h2 class="section__title" data-i18n="about.title">Sobre mí</h2>
+          <p class="section__sub" data-i18n="about.sub">Quién soy y cómo trabajo</p>
+        </header>
+
+        <div class="about">
+          <div class="about__text">
+            <p data-i18n="about.p1">
+              Soy estudiante de Ingeniería en Computación e Informática (Universidad Andrés Bello)
+              con experiencia práctica en <strong>gobierno de datos</strong>, automatización de procesos
+              e infraestructura en la nube.
+            </p>
+            <p data-i18n="about.p2">
+              En mi paso por el área de Gobierno de Datos de BCI aseguré la calidad e integridad de
+              activos de información sobre AWS, lideré el mapeo técnico del linaje de datos de la
+              empresa y automaticé controles de auditoría que antes se cruzaban a mano.
+            </p>
+            <p data-i18n="about.p3">
+              Me interesa el punto donde los datos, los procesos y la infraestructura se cruzan:
+              construir sistemas funcionales, seguros y escalables que alguien más pueda mantener
+              sin necesitarme al lado.
+            </p>
+
+            <ul class="about__facts">
+              <li><span class="about__fact-k" data-i18n="about.location">Ubicación</span><span class="about__fact-v">Isla de Maipo, Santiago, Chile</span></li>
+              <li><span class="about__fact-k" data-i18n="about.education">Formación</span><span class="about__fact-v" data-i18n="about.educationV">Ing. en Computación e Informática — UNAB</span></li>
+              <li><span class="about__fact-k" data-i18n="about.languages">Idiomas</span><span class="about__fact-v" data-i18n="about.languagesV">Español (nativo) · Inglés (avanzado)</span></li>
+            </ul>
+          </div>
+
+          <aside class="about__card" aria-label="Enfoque de trabajo">
+            <h3 class="about__card-title" data-i18n="about.approachTitle">Cómo abordo un problema</h3>
+            <ol class="steps" id="approach-steps"></ol>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ SKILLS ══════════════ -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__num" aria-hidden="true">02</span>
+          <h2 class="section__title" data-i18n="skills.title">Stack técnico</h2>
+          <p class="section__sub" data-i18n="skills.sub">Herramientas con las que trabajo a diario</p>
+        </header>
+
+        <div class="skills-grid" id="skills-grid"></div>
+      </div>
+    </section>
+
+    <!-- ══════════════ PROYECTOS ══════════════ -->
+    <section class="section" id="proyectos">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__num" aria-hidden="true">03</span>
+          <h2 class="section__title" data-i18n="projects.title">Proyectos</h2>
+          <p class="section__sub" data-i18n="projects.sub">Procesos manuales convertidos en sistemas automatizados</p>
+        </header>
+
+        <div class="projects" id="projects-grid"></div>
+
+        <noscript>
+          <p class="noscript">Activa JavaScript para ver el detalle de los proyectos y el cambio de idioma.</p>
+        </noscript>
+      </div>
+    </section>
+
+    <!-- ══════════════ EXPERIENCIA ══════════════ -->
+    <section class="section section--alt" id="experiencia">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__num" aria-hidden="true">04</span>
+          <h2 class="section__title" data-i18n="experience.title">Experiencia y educación</h2>
+          <p class="section__sub" data-i18n="experience.sub">Trayectoria laboral y académica</p>
+        </header>
+
+        <ol class="timeline" id="timeline"></ol>
+      </div>
+    </section>
+
+    <!-- ══════════════ CERTIFICACIONES ══════════════ -->
+    <section class="section" id="certificaciones">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__num" aria-hidden="true">05</span>
+          <h2 class="section__title" data-i18n="certs.title">Certificaciones</h2>
+          <p class="section__sub" data-i18n="certs.sub">Formación complementaria</p>
+        </header>
+
+        <div class="certs" id="certs-grid"></div>
+      </div>
+    </section>
+
+    <!-- ══════════════ CONTACTO ══════════════ -->
+    <section class="section section--alt" id="contacto">
+      <div class="container">
+        <header class="section__head">
+          <span class="section__num" aria-hidden="true">06</span>
+          <h2 class="section__title" data-i18n="contact.title">Conversemos</h2>
+          <p class="section__sub" data-i18n="contact.sub">¿Tienes un proceso que se puede automatizar? Escríbeme.</p>
+        </header>
+
+        <div class="contact" id="contact-grid"></div>
+
+        <div class="contact__cv">
+          <a class="btn btn--primary btn--lg" href="assets/cv/Tomas-Jimenez-Albornoz-CV.pdf" download>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+            <span data-i18n="contact.cv">Descargar CV en PDF</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">© <span id="year">2026</span> Tomás Jiménez Albornoz</p>
+      <p class="footer__note" data-i18n="footer.note">Hecho con HTML, CSS y JavaScript — sin frameworks.</p>
+    </div>
+  </footer>
+
+  <!-- ══════════════ MODAL DE PROYECTO ══════════════ -->
+  <div class="modal" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__panel" role="document">
+      <button class="modal__close" type="button" data-close-modal aria-label="Cerrar">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+      <div class="modal__body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <button class="to-top" id="to-top" type="button" aria-label="Volver arriba" hidden>
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5m0 0l-6 6m6-6l6 6"/></svg>
+  </button>
+
+  <script src="assets/js/content.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
