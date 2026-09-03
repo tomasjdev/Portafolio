@@ -68,7 +68,6 @@ Casi todo se edita en un solo archivo: **`assets/js/content.js`**.
 ```js
 const CONFIG = {
   email: 'jimeneztomas912@gmail.com',
-  phone: '+56 9 3424 5693',
   linkedin: 'https://www.linkedin.com/in/...',   // ← revisar
   github: 'https://github.com/tomasjdev',
   cv: 'assets/cv/Tomas-Jimenez-Albornoz-CV.pdf',

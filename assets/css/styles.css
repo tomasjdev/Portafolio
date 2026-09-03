@@ -731,9 +731,9 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; letter-spacing: -.02em; }
 
 .contact {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: var(--sp-4);
-  max-width: 820px;
+  max-width: 1000px;
   margin-inline: auto;
 }
 

@@ -13,8 +13,8 @@
 
 const CONFIG = {
   email: 'jimeneztomas912@gmail.com',
-  phone: '+56 9 3424 5693',
-  phoneRaw: '+56934245693',
+  // El teléfono se mantiene solo en el PDF del CV: al ser un sitio público,
+  // publicarlo en el HTML lo expone a rastreo automatizado.
   location: 'Isla de Maipo, Santiago, Chile',
   // TODO: reemplazar por la URL real del perfil (el CV apunta a un placeholder).
   linkedin: 'https://www.linkedin.com/in/tomas-jimenez-albornoz',
@@ -76,7 +76,6 @@ const I18N = {
     'contact.sub': '¿Tienes un proceso que se puede automatizar? Escríbeme.',
     'contact.cv': 'Descargar CV en PDF',
     'contact.emailLabel': 'Correo',
-    'contact.phoneLabel': 'Teléfono',
     'contact.linkedinLabel': 'LinkedIn',
     'contact.githubLabel': 'GitHub',
     'contact.locationLabel': 'Ubicación',
@@ -135,7 +134,6 @@ const I18N = {
     'contact.sub': 'Got a process that could be automated? Drop me a line.',
     'contact.cv': 'Download CV (PDF)',
     'contact.emailLabel': 'Email',
-    'contact.phoneLabel': 'Phone',
     'contact.linkedinLabel': 'LinkedIn',
     'contact.githubLabel': 'GitHub',
     'contact.locationLabel': 'Location',

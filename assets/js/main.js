@@ -225,7 +225,6 @@
 
     const cards = [
       { icon: 'mail',  label: dict['contact.emailLabel'],    value: CONFIG.email,    href: `mailto:${CONFIG.email}` },
-      { icon: 'phone', label: dict['contact.phoneLabel'],    value: CONFIG.phone,    href: `tel:${CONFIG.phoneRaw}` },
       { icon: 'linkedin', label: dict['contact.linkedinLabel'], value: 'in/tomas-jimenez-albornoz', href: CONFIG.linkedin, external: true },
       { icon: 'github',   label: dict['contact.githubLabel'],   value: '@tomasjdev', href: CONFIG.github, external: true },
     ];
