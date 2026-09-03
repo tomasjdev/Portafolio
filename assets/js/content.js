@@ -16,7 +16,9 @@ const CONFIG = {
   // El teléfono se mantiene solo en el PDF del CV: al ser un sitio público,
   // publicarlo en el HTML lo expone a rastreo automatizado.
   location: 'Isla de Maipo, Santiago, Chile',
-  linkedin: 'https://www.linkedin.com/in/tomas-jimenez-albornoz',
+  // Se codifica como %C3%A1/%C3%AD para que las tildes viajen intactas en
+  // cualquier contexto (el navegador las vuelve a mostrar en la barra de URL).
+  linkedin: 'https://www.linkedin.com/in/tom%C3%A1s-jim%C3%A9nez-albornoz',
   github: 'https://github.com/tomasjdev',
   cv: 'assets/cv/Tomas-Jimenez-Albornoz-CV.pdf',
 };
